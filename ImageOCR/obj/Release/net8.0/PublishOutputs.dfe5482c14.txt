@@ -1,0 +1,11 @@
+C:\proyecto pw2022\Blog\Net8\ImageOCR\bin\Release\net8.0\publish\x86\leptonica-1.82.0.dll
+C:\proyecto pw2022\Blog\Net8\ImageOCR\bin\Release\net8.0\publish\x86\tesseract50.dll
+C:\proyecto pw2022\Blog\Net8\ImageOCR\bin\Release\net8.0\publish\x64\leptonica-1.82.0.dll
+C:\proyecto pw2022\Blog\Net8\ImageOCR\bin\Release\net8.0\publish\x64\tesseract50.dll
+C:\proyecto pw2022\Blog\Net8\ImageOCR\bin\Release\net8.0\publish\ImageOCR.dll
+C:\proyecto pw2022\Blog\Net8\ImageOCR\bin\Release\net8.0\publish\ImageOCR.deps.json
+C:\proyecto pw2022\Blog\Net8\ImageOCR\bin\Release\net8.0\publish\ImageOCR.pdb
+C:\proyecto pw2022\Blog\Net8\ImageOCR\bin\Release\net8.0\publish\Microsoft.Win32.SystemEvents.dll
+C:\proyecto pw2022\Blog\Net8\ImageOCR\bin\Release\net8.0\publish\System.Drawing.Common.dll
+C:\proyecto pw2022\Blog\Net8\ImageOCR\bin\Release\net8.0\publish\Tesseract.dll
+C:\proyecto pw2022\Blog\Net8\ImageOCR\bin\Release\net8.0\publish\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll

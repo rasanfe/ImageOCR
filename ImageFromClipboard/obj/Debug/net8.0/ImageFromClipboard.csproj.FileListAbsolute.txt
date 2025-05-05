@@ -1,0 +1,10 @@
+C:\proyecto pw2022\Blog\Net8\ImageFromClipboard\obj\Debug\net8.0\ImageFromClipboard.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyecto pw2022\Blog\Net8\ImageFromClipboard\obj\Debug\net8.0\ImageFromClipboard.AssemblyInfoInputs.cache
+C:\proyecto pw2022\Blog\Net8\ImageFromClipboard\obj\Debug\net8.0\ImageFromClipboard.AssemblyInfo.cs
+C:\proyecto pw2022\Blog\Net8\ImageFromClipboard\obj\Debug\net8.0\ImageFromClipboard.csproj.CoreCompileInputs.cache
+C:\proyecto pw2022\Blog\Net8\ImageFromClipboard\obj\Debug\net8.0\ImageFromClipboard.csproj.AssemblyReference.cache
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\obj\Debug\net8.0\ImageFromClipboard.csproj.AssemblyReference.cache
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\obj\Debug\net8.0\ImageFromClipboard.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\obj\Debug\net8.0\ImageFromClipboard.AssemblyInfoInputs.cache
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\obj\Debug\net8.0\ImageFromClipboard.AssemblyInfo.cs
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\obj\Debug\net8.0\ImageFromClipboard.csproj.CoreCompileInputs.cache

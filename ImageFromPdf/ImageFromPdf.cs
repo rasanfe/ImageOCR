@@ -52,7 +52,7 @@ namespace ImageFromPdf
                 throw new Exception(ErrorText);
             }
 
-        
+
         }
 
         public string PdfToPng(string source)

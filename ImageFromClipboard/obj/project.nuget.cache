@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JXiGjm7lG7cMCjuiDv+U4ipzcgIC8FWwsNorZRwPGqp19d6ZANY5H2MiyMyOWpfJKerWv7XQI2AMrKzVSWJ9Zw==",
+  "success": true,
+  "projectFilePath": "C:\\proyecto pw2022\\Blog\\Net8\\ImageOCR\\ImageFromClipboard\\ImageFromClipboard.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.drawing.common\\8.0.15\\system.drawing.common.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}

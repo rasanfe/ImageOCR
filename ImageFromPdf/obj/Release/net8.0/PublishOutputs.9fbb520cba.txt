@@ -1,0 +1,9 @@
+C:\proyecto pw2022\Blog\Net8\ImageFromPdf\bin\Release\net8.0\publish\x64\pdfium.dll
+C:\proyecto pw2022\Blog\Net8\ImageFromPdf\bin\Release\net8.0\publish\ImageFromPdf.dll
+C:\proyecto pw2022\Blog\Net8\ImageFromPdf\bin\Release\net8.0\publish\ImageFromPdf.deps.json
+C:\proyecto pw2022\Blog\Net8\ImageFromPdf\bin\Release\net8.0\publish\ImageFromPdf.pdb
+C:\proyecto pw2022\Blog\Net8\ImageFromPdf\bin\Release\net8.0\publish\Microsoft.Win32.SystemEvents.dll
+C:\proyecto pw2022\Blog\Net8\ImageFromPdf\bin\Release\net8.0\publish\PdfiumViewer.dll
+C:\proyecto pw2022\Blog\Net8\ImageFromPdf\bin\Release\net8.0\publish\System.Drawing.Common.dll
+C:\proyecto pw2022\Blog\Net8\ImageFromPdf\bin\Release\net8.0\publish\nl\PdfiumViewer.resources.dll
+C:\proyecto pw2022\Blog\Net8\ImageFromPdf\bin\Release\net8.0\publish\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll

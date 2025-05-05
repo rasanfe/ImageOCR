@@ -1,0 +1,4 @@
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\bin\Release\net8.0\publish\ImageFromClipboard.dll
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\bin\Release\net8.0\publish\ImageFromClipboard.deps.json
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\bin\Release\net8.0\publish\ImageFromClipboard.pdb
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\bin\Release\net8.0\publish\System.Drawing.Common.dll

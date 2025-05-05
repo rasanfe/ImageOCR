@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "kb+1PXKhVrKmDEs/Ws78iJw2B7PJne95MG8FDV5ZBmLdQXaDu+JcbB+d77zeUUwVV8DHl+qlz2zTkPfrvcBHUA==",
+  "success": true,
+  "projectFilePath": "C:\\proyecto pw2022\\Blog\\Net8\\ImageOCR\\ImageOCR\\ImageOCR.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.drawing.common\\8.0.15\\system.drawing.common.8.0.15.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\tesseract\\5.2.0\\tesseract.5.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

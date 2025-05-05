@@ -1,0 +1,12 @@
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\obj\Debug\net8.0-windows\ImageFromClipboard.csproj.AssemblyReference.cache
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\obj\Debug\net8.0-windows\ImageFromClipboard.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\obj\Debug\net8.0-windows\ImageFromClipboard.AssemblyInfoInputs.cache
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\obj\Debug\net8.0-windows\ImageFromClipboard.AssemblyInfo.cs
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\obj\Debug\net8.0-windows\ImageFromClipboard.csproj.CoreCompileInputs.cache
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\bin\Debug\net8.0-windows\ImageFromClipboard.deps.json
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\bin\Debug\net8.0-windows\ImageFromClipboard.dll
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\bin\Debug\net8.0-windows\ImageFromClipboard.pdb
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\obj\Debug\net8.0-windows\ImageFromClipboard.dll
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\obj\Debug\net8.0-windows\refint\ImageFromClipboard.dll
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\obj\Debug\net8.0-windows\ImageFromClipboard.pdb
+C:\proyecto pw2022\Blog\Net8\ImageOCR\ImageFromClipboard\obj\Debug\net8.0-windows\ref\ImageFromClipboard.dll
