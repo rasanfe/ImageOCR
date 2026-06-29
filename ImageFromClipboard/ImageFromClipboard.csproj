@@ -1,14 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0-windows</TargetFramework>
+    <TargetFramework>net10.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	  <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="System.Drawing.Common" Version="8.0.15" />
-  </ItemGroup>
+  <!-- System.Drawing.Common lo aporta ya el framework Windows Desktop (UseWindowsForms),
+       por eso no hace falta referencia explicita (evita el aviso NU1510 de .NET 10). -->
 
 </Project>

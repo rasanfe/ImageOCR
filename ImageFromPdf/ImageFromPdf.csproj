@@ -1,15 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="PdfiumViewer" Version="2.13.0" />
-    <PackageReference Include="PdfiumViewer.Native.x86_64.v8-xfa" Version="2018.4.8.256" />
-    <PackageReference Include="System.Drawing.Common" Version="8.0.15" />
+    <!-- PdfiumViewer (abandonado desde 2018) sustituido por PDFtoImage: OSS (MIT), mantenido
+         y con soporte .NET 10, basado en PDFium + SkiaSharp. -->
+    <PackageReference Include="PDFtoImage" Version="5.2.1" />
+    <!-- System.Drawing.Common se conserva solo para re-codificar a BMP (SkiaSharp no exporta BMP). -->
+    <PackageReference Include="System.Drawing.Common" Version="10.0.9" />
   </ItemGroup>
 
 </Project>
