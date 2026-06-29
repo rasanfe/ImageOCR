@@ -1,5 +1,7 @@
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.Reflection;
+using System.Runtime.InteropServices;
 using SkiaSharp;   // Motor gráfico 2D de Google (el mismo de Chrome/Flutter); aquí, para codificar imágenes.
 using PDFtoImage;  // Rasteriza PDF→imagen apoyándose en PDFium (el render de PDF de Chrome) + SkiaSharp.
 
@@ -32,6 +34,54 @@ namespace ImageFromPdf
         // 300 puntos por pulgada: resolución "de escáner". Suficiente para que el OCR posterior
         // lea bien el texto sin disparar el tamaño de la imagen.
         private const int Dpi = 300;
+
+        #region Resolución de DLLs nativas (clave al hostear desde PowerBuilder)
+        /*
+         * SkiaSharp (libSkiaSharp) y PDFium (pdfium) son NATIVAS, entregadas bajo
+         * 'runtimes\win-<arch>\native\'. En una app .NET normal el host resuelve esa ruta leyendo el
+         * deps.json de esta lib; pero al hostearnos PowerBuilder (.NET DLL Importer), el host es PB y
+         * usa SU propio deps.json: la carpeta 'runtimes\' nuestra NUNCA entra en el search path. Eso
+         * provoca 'Unable to load DLL pdfium' (0x8007007E) o BadImageFormatException (0x8007000B).
+         * Registramos un resolver que carga la nativa desde 'runtimes\win-<arch>\native\' relativo a
+         * ESTA DLL, según el bitness del proceso. Misma solución que en RSRBarcode (qrcode_pdf).
+         */
+        static ImageFromPdf()
+        {
+            TryRegister(typeof(SKBitmap).Assembly);     // libSkiaSharp (SkiaSharp)
+            TryRegister(typeof(Conversion).Assembly);   // pdfium (PDFtoImage)
+        }
+
+        private static void TryRegister(Assembly assembly)
+        {
+            try { NativeLibrary.SetDllImportResolver(assembly, ResolveNative); } catch { }
+        }
+
+        private static IntPtr ResolveNative(string libraryName, Assembly assembly, DllImportSearchPath? searchPath)
+        {
+            string baseName = Path.GetFileNameWithoutExtension(libraryName);
+            if (!baseName.Equals("libSkiaSharp", StringComparison.OrdinalIgnoreCase) &&
+                !baseName.Equals("pdfium", StringComparison.OrdinalIgnoreCase))
+            {
+                return IntPtr.Zero;
+            }
+
+            string rid = RuntimeInformation.ProcessArchitecture switch
+            {
+                Architecture.X86 => "win-x86",
+                Architecture.Arm64 => "win-arm64",
+                _ => "win-x64",
+            };
+
+            string baseDir = Path.GetDirectoryName(typeof(ImageFromPdf).Assembly.Location)!;
+            string candidate = Path.Combine(baseDir, "runtimes", rid, "native", baseName + ".dll");
+
+            if (File.Exists(candidate) && NativeLibrary.TryLoad(candidate, out IntPtr handle))
+            {
+                return handle;
+            }
+            return IntPtr.Zero;
+        }
+        #endregion
 
         /// <summary>
         /// Convierte SOLO la primera página del PDF a BMP (atajo cómodo desde PB).
